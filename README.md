@@ -17,18 +17,18 @@ hashing with chaining. This method uses chaining with linked lists to resolve co
 
 This method can look like this:
 
-![alt text][logo]
+![alt text][diagram1]
 
-[logo]: https://yourbasic.org/algorithms/hash-table.png "Logo Title Text 2"
+[diagram1]: https://yourbasic.org/algorithms/hash-table.png "diagram1"
 hash-table.png. (n.d.). [Photograph]. Retrieved from https://yourbasic.org/algorithms/hash-table.png
 
 This method only contains two steps to complete, converting a key to an interger and using the index to decide 
 the position within the linked list to determine where the key-value pairs will be located.
       
 The hashing function is the key part in this process. The main purpose of a hash function is to return the same output for the given input
-![alt text][logo]
+![alt text][diagram2]
 
-[logo]: https://gblobscdn.gitbook.com/assets%2F-M0tzdQoYXoPhCiqfqxs%2F-M7Y_5joCQkAp5eT8QA3%2F-M7YbWY9D-3kXbAetNJ5%2FScreen%20Shot%202020-05-18%20at%205.10.45%20AM.png?alt=media&token=e44fee37-a2b9-41ae-8777-246028af8d87 "Logo Title Text 2"
+[diagram2]: https://gblobscdn.gitbook.com/assets%2F-M0tzdQoYXoPhCiqfqxs%2F-M7Y_5joCQkAp5eT8QA3%2F-M7YbWY9D-3kXbAetNJ5%2FScreen%20Shot%202020-05-18%20at%205.10.45%20AM.png?alt=media&token=e44fee37-a2b9-41ae-8777-246028af8d87 "diagram2"
 Here is an example of a format for a hash table code:
 
 class HashTable {
@@ -119,9 +119,9 @@ created hash function. From here we will now push that key-value to the previous
            }
         }
   }
-![alt text][logo]
+![alt text][diagram3]
 
-[logo]:  https://reactgo.com/static/da923364e6f09497c068bb9f8a591dbe/36727/seperate-chaining.png "Logo Title Text 2"
+[diagram3]:  https://reactgo.com/static/da923364e6f09497c068bb9f8a591dbe/36727/seperate-chaining.png "diagram3"
 Gowtham, S. (2019, December 31). How to implement hash table in javascript. Retrieved from https://reactgo.com/hashtable-javascript/
 
 Applications of hash tables include:

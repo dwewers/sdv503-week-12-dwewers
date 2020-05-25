@@ -35,22 +35,22 @@ The hashing function is the key part in this process. The main purpose of a hash
 Here is an example of a format for a hash table code:
 
 class HashTable {
-constructor(size) {
-function
-this.size = size;//we define the size of our hash table
+    constructor(size) {
+        function
+    this.size = size;//we define the size of our hash table
 this.storage = [];//Creates an empty array called storage
 }
-insert(key, value) { }
-get() {}
-remove() {}
+    insert(key, value) { }
+        get() {}
+            remove() {}
 
 myHashingFunction(str, n) {//This is the function that we will use to hash our keys
-let sum = 0; //Sets the default value of sum as 0
-for (let i = 0; i < str.length; i++) { //Increments i by one for the length of the string
+    let sum = 0; //Sets the default value of sum as 0
+        for (let i = 0; i < str.length; i++) { //Increments i by one for the length of the string
 sum += str.charCodeAt(i) \* 3;
 }
-return sum % n;
-}
+        return sum % n;
+    }
 }
 
 PSEUDO code:

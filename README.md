@@ -11,17 +11,11 @@ index. This index can then be used to store or locate the specified element.
 
 Hash Tables is similar to the linked list in the sense that it maps keys to values. This method can look like this:
 
-Keys    Hash Func      Buckets
-        |      |       
-[X]     |\    /|  [1] [1357-9753]
-        | \  / |       
-[Y]     |--\/--|  [2] [2468-8642]
-        |  /\  |       
-[Z]     | /  \ |  [3] [1234-5678]
-        |      |   
+
 ![alt text][logo]
 
 [logo]: https://yourbasic.org/algorithms/hash-table.png "Logo Title Text 2"
+hash-table.png. (n.d.). [Photograph]. Retrieved from https://yourbasic.org/algorithms/hash-table.png
 
       
 The hashing function is the key part in this process. The main purpose of a hash function is to return the same output for the given input
@@ -67,3 +61,6 @@ Message Digest
 Password Verification
 Compiler Operation
 Linking a file name and path together
+
+references:
+

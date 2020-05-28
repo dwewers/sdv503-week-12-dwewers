@@ -112,6 +112,7 @@ console.log(calculator1.mult);
 //Stack and queues------------------------------------------------------------------
 
 newArray = [];
+console.log(newArray);
 newArray.push(1);
 console.log(newArray);
 newArray.push(2);
@@ -130,9 +131,29 @@ newArray.pop();
 console.log(newArray);
 newArray.pop();
 console.log(newArray);
+newArray.pop();
+console.log(newArray);
 
 function factorial(x) {
   if (x === 0) return 1;
   return x * factorial(x - 1);
 }
 console.log(factorial(5));
+
+historyArr = [];
+
+website1 = "www.google.com";
+website2 = "www.facebook.com";
+website3 = "www.reddit.com";
+
+historyArr.push(website1);
+console.log(historyArr);
+historyArr.push(website2);
+console.log(historyArr);
+historyArr.push(website3);
+console.log(historyArr);
+
+while (historyArr.length > 0) {
+  historyArr.pop();
+}
+console.log(historyArr);

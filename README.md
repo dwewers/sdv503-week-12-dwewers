@@ -1,8 +1,8 @@
-# sdv503-week-12-dwewers
+# sdv503-week-12-dwewers 
 
 ---
-
-////////////////////////// Hash Tables ////////////////////////////
+# Mondays Class
+## ////////////////////////// Hash Tables ////////////////////////////
 Hash tables are a form of data structure that we can us to store data in an associative manner.
 A hash table consists of an array of stored data. Within this array, there is a unique index value
 for each and every data value. These designated values for each piece of data allows us to easily access
@@ -53,7 +53,7 @@ sum += str.charCodeAt(i) \* 3;
     }
 }
 
-PSEUDO code:
+## PSEUDO code:
 create a class for hashtable
 end
 insert values
@@ -135,3 +135,7 @@ Message Digest,
 Password Verification,
 Compiler Operation,
 Linking a file name and path together
+
+
+# Fridays class
+

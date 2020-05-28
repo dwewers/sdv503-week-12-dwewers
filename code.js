@@ -71,46 +71,62 @@ let email = new Studentexample2("Daniel", "Ewers");
 
 console.log(email.fullName().toLowerCase());
 
-
-
 //Classes temple -----------------------------------------------------------------=
 
-class DataStructure{
-    constructor(){
-        //what defult properties should it have
-    }
-    someInstanceMethod(){
-        //What should each object created from the class be able to do
-    }
+class DataStructure {
+  constructor() {
+    //what defult properties should it have
+  }
+  someInstanceMethod() {
+    //What should each object created from the class be able to do
+  }
 }
-
 
 //More examples------------------------------------------------------------------
 
-//const calculator = {obj1: 10, obj2: 5}
 
 const calculator = {
-    var1 : 10,
-    var2: 5,               }
-    class Calc{
-        constructor(add, dev, sub, mult){
-            this.add = add;
-            this.dev = dev;
-            this.sub = sub;
-            this.mult = mult;
-        }
-    }
-    var calculator1 = new Calc(
+  val1: 10,
+  val2: 5,
+  val3: 2,
+};
+class Calc {
+  constructor(add, dev, sub, mult) {
+    this.add = add;
+    this.dev = dev;
+    this.sub = sub;
+    this.mult = mult;
+  }
+}
+var calculator1 = new Calc(
+  Object.values(calculator).reduce((a, b) => a + b),
+  Object.values(calculator).reduce((a, b) => a / b),
+  Object.values(calculator).reduce((a, b) => a - b),
+  Object.values(calculator).reduce((a, b) => a * b)
+);
 
-        (Object.values(calculator).reduce((a,b) => a + b, 0)), 
-        (Object.values(calculator).reduce((a,b) => a / b)), 
-        (Object.values(calculator).reduce((a,b) => a - b)), 
-        (Object.values(calculator).reduce((a,b) => a * b))
+console.log(calculator1.add);
+console.log(calculator1.dev);
+console.log(calculator1.sub);
+console.log(calculator1.mult);
 
-        );
+//Stack and queues------------------------------------------------------------------
 
-    console.log(calculator1.add)
-    console.log(calculator1.dev)
-    console.log(calculator1.sub)
-    console.log(calculator1.mult)
+ newArray = [];
+ newArray.push(1);
+ newArray.push(2);
+ newArray.push(3);
+ newArray.push(4);
+ newArray.push(5);
+ console.log(newArray)
+ newArray.pop();
+ console.log(newArray)
 
+
+
+
+ function factorial(x){
+     if (x===0) return 1;
+     return x*factorial(x-1)
+ }
+ console.log(factorial(5))

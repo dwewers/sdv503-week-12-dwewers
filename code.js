@@ -111,28 +111,29 @@ console.log(calculator1.mult);
 
 //Stack and queues------------------------------------------------------------------
 
-newArray = [];
-console.log(newArray);
-newArray.push(1);
-console.log(newArray);
-newArray.push(2);
-console.log(newArray);
-newArray.push(3);
-console.log(newArray);
-newArray.push(4);
-console.log(newArray);
-newArray.push(5);
-console.log(newArray);
-newArray.pop();
-console.log(newArray);
-newArray.pop();
-console.log(newArray);
-newArray.pop();
-console.log(newArray);
-newArray.pop();
-console.log(newArray);
-newArray.pop();
-console.log(newArray);
+//LIFO
+LIFO = [];
+console.log(LIFO);
+LIFO.push(1);
+console.log(LIFO);
+LIFO.push(2);
+console.log(LIFO);
+LIFO.push(3);
+console.log(LIFO);
+LIFO.push(4);
+console.log(LIFO);
+LIFO.push(5);
+console.log(LIFO);
+LIFO.pop();
+console.log(LIFO);
+LIFO.pop();
+console.log(LIFO);
+LIFO.pop();
+console.log(LIFO);
+LIFO.pop();
+console.log(LIFO);
+LIFO.pop();
+console.log(LIFO);
 
 function factorial(x) {
   if (x === 0) return 1;
@@ -157,3 +158,28 @@ while (historyArr.length > 0) {
   historyArr.pop();
 }
 console.log(historyArr);
+
+//FIFO
+
+FIFO = [];
+console.log(FIFO);
+FIFO.push(1);
+console.log(FIFO);
+FIFO.push(2);
+console.log(FIFO);
+FIFO.push(3);
+console.log(FIFO);
+FIFO.push(4);
+console.log(FIFO);
+FIFO.push(5);
+console.log(FIFO);
+FIFO.shift();
+console.log(FIFO);
+FIFO.shift();
+console.log(FIFO);
+FIFO.shift();
+console.log(FIFO);
+FIFO.shift();
+console.log(FIFO);
+FIFO.shift();
+console.log(FIFO);

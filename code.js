@@ -84,7 +84,6 @@ class DataStructure {
 
 //More examples------------------------------------------------------------------
 
-
 const calculator = {
   val1: 10,
   val2: 5,
@@ -112,21 +111,28 @@ console.log(calculator1.mult);
 
 //Stack and queues------------------------------------------------------------------
 
- newArray = [];
- newArray.push(1);
- newArray.push(2);
- newArray.push(3);
- newArray.push(4);
- newArray.push(5);
- console.log(newArray)
- newArray.pop();
- console.log(newArray)
+newArray = [];
+newArray.push(1);
+console.log(newArray);
+newArray.push(2);
+console.log(newArray);
+newArray.push(3);
+console.log(newArray);
+newArray.push(4);
+console.log(newArray);
+newArray.push(5);
+console.log(newArray);
+newArray.pop();
+console.log(newArray);
+newArray.pop();
+console.log(newArray);
+newArray.pop();
+console.log(newArray);
+newArray.pop();
+console.log(newArray);
 
-
-
-
- function factorial(x){
-     if (x===0) return 1;
-     return x*factorial(x-1)
- }
- console.log(factorial(5))
+function factorial(x) {
+  if (x === 0) return 1;
+  return x * factorial(x - 1);
+}
+console.log(factorial(5));
